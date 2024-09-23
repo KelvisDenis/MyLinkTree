@@ -1,0 +1,161 @@
+.grades-container {
+    max-width: 1000px;
+    margin: 20px auto;
+    margin-top: 100px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+ 
+  .student-name {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    margin-left: 350px;
+  }
+  
+  .grades-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .score-pass span {
+    margin: 2px;
+  }
+  
+
+  .score-barra {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+  }
+  
+
+
+  .login-button-edit {
+    width: 100%;
+    padding: 10px;
+    background-color: #e4a30b;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .login-button-delete {
+    width: 100%;
+    padding: 10px;
+    background-color: #ca2727;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .login-button-delete:hover {
+    background-color: #ab3737;
+  }
+  .login-button-edit:hover {
+    background-color: #ebaa48;
+  }
+
+
+
+  .login-button-add {
+    width: 17%;
+    padding: 10px;
+    background-color: #2db331;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+  }
+
+
+  .login-button-add:hover {
+    background-color: #40ca45;
+  }
+ 
+
+  .copy-button-add{
+    font-family: 'Lora', serif;
+
+    width: 17%;
+    padding: 10px;
+    background-color: #cbcbcb;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    margin-top: -10px;
+  }
+  .copy-button-add:hover {
+    background-color: #b9b9b9;
+  }
+
+  /* Responsividade para telas menores, como tablets (largura até 768px) */
+@media (max-width: 768px) {
+  .grades-container {
+    max-width: 90%; /* Ajusta a largura da caixa para telas menores */
+    padding: 15px; /* Ajusta o padding para manter o conteúdo compacto */
+  }
+
+  .student-name {
+    font-size: 20px; /* Reduz o tamanho da fonte */
+    margin-left: 0; /* Centraliza o texto em telas menores */
+    text-align: center;
+  }
+
+  .login-button-edit,
+  .login-button-delete {
+    width: 100%; /* Botões ocupam 100% da largura da tela */
+    margin-left: 0; /* Remove a margem esquerda */
+  }
+
+  .login-button-add,
+  .copy-button-add {
+    width: 100%; /* Botões ocupam 100% da largura da tela */
+    margin-left: 0; /* Remove a margem esquerda */
+  }
+}
+
+/* Responsividade para dispositivos móveis (largura até 480px) */
+@media (max-width: 480px) {
+  .grades-container {
+    max-width: 100%; /* Ocupa toda a largura disponível */
+    padding: 10px; /* Ajusta o padding para dispositivos móveis */
+  }
+
+  .student-name {
+    font-size: 18px; /* Reduz o tamanho da fonte ainda mais */
+    margin-left: 0; /* Centraliza o nome do estudante */
+    text-align: center;
+  }
+
+  .login-button-edit,
+  .login-button-delete,
+  .login-button-add,
+  .copy-button-add {
+    width: 100%; /* Botões ocupam 100% da largura */
+    margin-left: 0; /* Remove a margem esquerda */
+    font-size: 16px; /* Reduz o tamanho da fonte dos botões */
+    padding: 8px; /* Reduz o padding dos botões */
+  }
+}

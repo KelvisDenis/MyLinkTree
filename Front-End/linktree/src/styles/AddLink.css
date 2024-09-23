@@ -1,0 +1,153 @@
+  
+  .card-content {
+    max-width: 100%;
+    padding: 15px;
+    text-align: center;
+    margin-top: 0;
+  }
+
+  
+  .card {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 60%;
+    height: 100%;
+    margin: 20px;
+    margin-left: 200px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+
+  .bix {
+    margin-left: 520px;
+    font-size: 30px;
+    margin-bottom: 15px;
+    cursor: pointer;
+  }
+  .bix:hover {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: rgb(217, 217, 217)
+
+  }
+
+
+.card input[type="text"],
+.card input[type="url"] {
+      width: 80%;
+      padding: 10px;
+      margin-bottom: 30px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+      transition: border-color 0.3s ease;
+      box-sizing: border-box;
+      margin-left: 60px;
+      margin-top: 10px;
+  }
+
+
+  .card label{
+    max-width: 100%;
+    margin: 100px;
+  }
+
+  .card hr{
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+
+.card h6{
+    font-size: 15px;
+    margin-right: 390px;
+    margin-bottom: 20px;
+}
+
+
+.icons-content{
+    display: flex; /* Habilita o flexbox */
+    justify-content: center; /* Centraliza os ícones */
+    gap: 30px; /* Adiciona espaço entre os ícones */
+    flex-wrap: wrap; /* Permite quebrar a linha se necessário */
+    
+
+}
+.icons{
+    font-size: 34px; 
+    cursor: pointer;
+}
+.icons:hover{
+    transform: translateY(-10px);
+
+}
+
+/* Responsividade para telas menores, como tablets (largura até 768px) */
+@media (max-width: 768px) {
+  .card {
+    max-width: 90%; /* Ajusta a largura da card */
+    margin-left: 20px; /* Reduz o margin-left */
+  }
+
+  .card-content {
+    padding: 10px; /* Ajusta o padding */
+  }
+
+  .bix {
+    margin-left: 0; /* Centraliza o ícone */
+    font-size: 24px; /* Reduz o tamanho do ícone */
+  }
+
+  .card input[type="text"],
+  .card input[type="url"] {
+    width: 90%; /* Aumenta a largura dos inputs para 90% */
+    margin-left: 5%; /* Centraliza os inputs */
+  }
+
+  .card h6 {
+    margin-right: 0; /* Remove o margin-right */
+    text-align: center; /* Centraliza o texto */
+  }
+
+  .icons-content {
+    gap: 20px; /* Reduz o espaçamento entre os ícones */
+  }
+
+  .icons {
+    font-size: 28px; /* Reduz o tamanho dos ícones */
+  }
+}
+
+/* Responsividade para dispositivos móveis (largura até 480px) */
+@media (max-width: 480px) {
+  .card {
+    max-width: 100%; /* Ocupa toda a largura disponível */
+    margin: 10px; /* Ajusta a margem */
+  }
+
+  .bix {
+    font-size: 20px; /* Reduz o tamanho do ícone */
+    margin-left: 0; /* Centraliza o ícone */
+  }
+
+  .card input[type="text"],
+  .card input[type="url"] {
+    width: 100%; /* Inputs ocupam 100% da largura */
+    margin-left: 0; /* Remove o margin-left */
+  }
+
+  .card h6 {
+    font-size: 14px; /* Reduz o tamanho do texto */
+    margin-right: 0;
+    text-align: center; /* Centraliza o texto */
+  }
+
+  .icons-content {
+    gap: 10px; /* Reduz ainda mais o espaçamento entre os ícones */
+  }
+
+  .icons {
+    font-size: 24px; /* Reduz o tamanho dos ícones para dispositivos móveis */
+  }
+}

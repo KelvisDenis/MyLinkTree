@@ -1,0 +1,124 @@
+# Compiled files
+/bin/
+/obj/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files
+*.log
+*.tlog
+*.lastcodeanalysissucceeded
+.vs/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# Entity Framework migrations
+Migrations/
+
+# Visual Studio 2019/2022 cache/options directory
+.vscode/
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
+.vscode/*.code-workspace
+.vscode/cspell.json
+
+# Rider IDE files
+.idea/
+*.sln.iml
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# DotNet specific files
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Docker
+docker-compose*.yaml
+docker-compose*.override.yaml
+.dockerignore
+Dockerfile*
+
+# Publish output
+.publish/
+
+# Azure Pipelines
+.azure-pipelines/
+
+# JetBrains Rider
+.idea/
+
+# Test results
+TestResults/
+
+# NCrunch
+_nCrunch_/
+.ncrunchsolution/
+
+# Backup & Report files from converting an old project file to a newer format
+Backup*/
+UpgradeLog*.XML
+UpgradeLog*.htm
+
+# NUnit
+*.VisualState.xml
+TestResult.xml
+
+# MSTest
+*.trx
+*.Coverage
+
+# Resharper
+_ReSharper.Caches/
+
+# StyleCop
+StyleCopReport.xml
+
+# Microsoft Azure Web App publish settings
+#   This file contains the Web App's user-sensitive publish settings
+#   Learn more: http://go.microsoft.com/fwlink/?LinkID=208121.
+PublishProfiles/
+
+# JetBrains Rider settings
+.idea/
+
+# Log files
+*.log
+
+# Temporary files
+~$*
+*.tmp

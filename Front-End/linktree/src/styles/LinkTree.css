@@ -1,0 +1,82 @@
+.links-containers {
+    max-width: 30%;
+    margin: 20px auto;
+    margin-top: 100px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 28px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .links-containers h5 {
+    font-size: 20px;
+  }
+  
+  .profile-image-link {
+    width: 180px; /* Largura da imagem */
+    height: 170px; /* Altura da imagem */
+    border-radius: 50%; /* Faz a imagem ficar circular */
+  }
+  
+  .input-group-links-tree input {
+    width: 60%;
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 40px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .input-group-links-tree input:hover {
+    background-color: #c1bdbd;
+  }
+  
+  /* Estilos para telas menores (tablets e celulares) */
+  @media screen and (max-width: 768px) {
+    .links-containers {
+      max-width: 80%;
+      margin-top: 60px; /* Reduz o espaço superior */
+      padding: 15px; /* Reduz o padding */
+    }
+  
+    .profile-image-link {
+      width: 140px;
+      height: 140px;
+    }
+  
+    .input-group-links-tree input {
+      width: 80%; /* Aumenta a largura para dispositivos menores */
+      padding: 12px; /* Reduz o padding */
+      font-size: 14px; /* Reduz o tamanho da fonte */
+    }
+  
+    .links-containers h5 {
+      font-size: 18px; /* Reduz o tamanho da fonte para títulos */
+    }
+  }
+  
+  /* Estilos para telas muito pequenas (celulares) */
+  @media screen and (max-width: 480px) {
+    .links-containers {
+      max-width: 95%; /* O container ocupa quase toda a largura */
+      margin-top: 40px; /* Menos espaço superior */
+    }
+  
+    .profile-image-link {
+      width: 120px;
+      height: 120px;
+    }
+  
+    .input-group-links-tree input {
+      width: 100%; /* O input ocupa toda a largura */
+      padding: 10px; /* Padding menor */
+      font-size: 14px;
+    }
+  
+    .links-containers h5 {
+      font-size: 16px;
+    }
+  }
+  

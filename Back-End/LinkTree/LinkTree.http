@@ -1,0 +1,6 @@
+@LinkTree_HostAddress = http://localhost:5290
+
+GET {{LinkTree_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

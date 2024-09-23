@@ -1,0 +1,75 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+/node_modules
+/.pnp
+.pnp.js
+
+# dotenv environment variables file
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Cache directories
+/.next
+/out
+.cache
+/.parcel-cache
+
+# Build output
+/build
+/dist
+
+# Coverage directory used by testing frameworks
+/coverage
+
+# Miscellaneous
+.DS_Store
+*.pem
+*.key
+*.crt
+
+# Editor directories and files
+.idea
+.vscode
+*.swp
+*.swo
+
+# Operating system files
+Thumbs.db
+.DS_Store
+
+# CI configurations
+/.github
+
+# Ignore storybook static build files
+/out-storybook
+
+# Ignore React Native specific files
+.expo/
+.expo-shared/
+
+# Ignore lockfiles
+yarn.lock
+package-lock.json
+
+# Ignore Webpack output
+/public/assets
+
+# Ignore generated service worker files
+/public/service-worker.js
+/public/precache-manifest.*
+
+# Ignore TypeScript build outputs
+*.tsbuildinfo
+
+
+
+Front-End/linktree

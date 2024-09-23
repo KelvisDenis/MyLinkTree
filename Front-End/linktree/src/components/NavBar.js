@@ -79,7 +79,6 @@ export default function NavBar(){
                                         </span>
                                         {dropdownOpen && (
                                             <div className="dropdown-menu">
-                                                <Link to="/settings" className="dropdown-item">Perfil</Link>
                                                 <Link type="submit" onClick={submit} className="dropdown-item">Log out</Link>
                                             </div>
                                         )}  
